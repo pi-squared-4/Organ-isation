@@ -25,7 +25,7 @@ var plasma = require("./modles/plasma");
 app.use("/", express.static("public"));
 
 //PORT ADDRESS
-var port = process.env.PORT || 5000;
+var port = process.env.PORT || 3001;
 
 
 connectDB();
