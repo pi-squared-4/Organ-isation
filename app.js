@@ -357,5 +357,5 @@ app.get("/hospitaldashboard", function(req, res) {
 
 //Server
 app.listen(port, function() {
-  console.log("server is on".yellow.bold);
+  console.log(`Server is running on port ${port}`.yellow.bold);
 });
