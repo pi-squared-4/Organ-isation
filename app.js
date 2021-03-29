@@ -27,7 +27,6 @@ app.use("/", express.static("public"));
 //PORT ADDRESS
 var port = process.env.PORT || 5000;
 
-dotenv.config();
 
 connectDB();
 //Altus Data cluster connection query ends
